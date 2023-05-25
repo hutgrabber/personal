@@ -1,8 +1,6 @@
-`export IP='10.10.80.6'`
 # Root Me
 `url = https://tryhackme.com/room/rrootme`
 `date = 01/19/2023`
-
 
 ## Enumeration
 ---
