@@ -5,14 +5,14 @@
 
 ## Enumeration
 
-1. Network Enumeration
+1. **Network Enumeration**
 ```bash
 Open 10.10.160.253:22
 Open 10.10.160.253:80
 ```
 * We can see that ports `22` & `80` are open which means that there is a website that can be enumerated. Other than that SSH is open as well.
 
-2. Directory Bruteforcing
+2. **Directory Bruteforcing**
 * On the website's landing page we can see a comment - `R1ckRul3s` as the username. We can save this for later.
 
 * The following directories are available from dirsearch -
