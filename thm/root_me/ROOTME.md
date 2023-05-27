@@ -1,16 +1,16 @@
 # Root Me
 `url = https://tryhackme.com/room/rrootme`
 `date = 01/19/2023`
-
-## Enumeration
 ---
-1. Network Enumeration
+## Enumeration
+
+1. **Network Enumeration**
 ```bash
 rustscan -a $IP --ulimit 6000 --scripts None
 ```
 * Ports `22` & `80` are open which means that there is a website hosted & SSH/HTTP are the services. Hence, 2 ports are open.
 
-2. Directory Bruteforcing
+2. **Directory Bruteforcing**
 ```bash
 dirsearch -u http://$IP/
 gobuster dir -u http://$IP/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
