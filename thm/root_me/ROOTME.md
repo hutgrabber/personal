@@ -60,6 +60,6 @@ which should give you root. Now you can just -
 cd /root
 cat root.txt
 ```
-this will give you the root flag - THM{pr1v1l3g3_3sc4l4t10n}
+this will give you the root flag - `THM{pr1v1l3g3_3sc4l4t10n}`
 
 fin.
