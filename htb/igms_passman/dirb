@@ -1,0 +1,5 @@
+/dashboard           [36m (Status: 302)[0m [Size: 23][34m [--> /][0m
+/logout              [36m (Status: 302)[0m [Size: 23][34m [--> /][0m
+/register            [32m (Status: 200)[0m [Size: 3037]
+/secció              [33m (Status: 400)[0m [Size: 1009]
+/static              [36m (Status: 301)[0m [Size: 179][34m [--> /static/][0m
