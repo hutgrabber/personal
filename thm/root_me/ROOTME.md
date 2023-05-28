@@ -3,14 +3,14 @@
 `date = 01/19/2023`
 
 ## Enumeration
----
-1. Network Enumeration
+
+1. **Network Enumeration**
 ```bash
 rustscan -a $IP --ulimit 6000 --scripts None
 ```
 * Ports `22` & `80` are open which means that there is a website hosted & SSH/HTTP are the services. Hence, 2 ports are open.
 
-2. Directory Bruteforcing
+2. **Directory Bruteforcing**
 ```bash
 dirsearch -u http://$IP/
 gobuster dir -u http://$IP/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
@@ -60,6 +60,6 @@ which should give you root. Now you can just -
 cd /root
 cat root.txt
 ```
-this will give you the root flag - THM{pr1v1l3g3_3sc4l4t10n}
+this will give you the root flag - `THM{pr1v1l3g3_3sc4l4t10n}`
 
 fin.
