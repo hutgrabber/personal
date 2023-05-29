@@ -1,0 +1,46 @@
+# Nmap 7.93 scan initiated Sun May 28 00:08:00 2023 as: nmap -p- -sC -oN nmap/all_ports 10.10.15.26
+Nmap scan report for 10.10.15.26
+Host is up (0.082s latency).
+Not shown: 65520 closed tcp ports (conn-refused)
+PORT      STATE SERVICE
+22/tcp    open  ssh
+| ssh-hostkey: 
+|   2048 2b17d88a1e8c99bc5bf53d0a5eff5e5e (RSA)
+|   256 3cc0fdb5c157ab75ac8110aee298120d (ECDSA)
+|_  256 e9f030bee6cfeffe2d1421a0ac457b70 (ED25519)
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+| ssl-cert: Subject: commonName=DEV-DATASCI-JUP
+| Not valid before: 2023-03-12T11:46:50
+|_Not valid after:  2023-09-11T11:46:50
+|_ssl-date: 2023-05-28T04:09:10+00:00; 0s from scanner time.
+| rdp-ntlm-info: 
+|   Target_Name: DEV-DATASCI-JUP
+|   NetBIOS_Domain_Name: DEV-DATASCI-JUP
+|   NetBIOS_Computer_Name: DEV-DATASCI-JUP
+|   DNS_Domain_Name: DEV-DATASCI-JUP
+|   DNS_Computer_Name: DEV-DATASCI-JUP
+|   Product_Version: 10.0.17763
+|_  System_Time: 2023-05-28T04:09:10+00:00
+5985/tcp  open  wsman
+8888/tcp  open  sun-answerbook
+47001/tcp open  winrm
+49664/tcp open  unknown
+49665/tcp open  unknown
+49667/tcp open  unknown
+49668/tcp open  unknown
+49669/tcp open  unknown
+49670/tcp open  unknown
+49671/tcp open  unknown
+
+Host script results:
+| smb2-security-mode: 
+|   311: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2023-05-28T04:09:13
+|_  start_date: N/A
+
+# Nmap done at Sun May 28 00:11:18 2023 -- 1 IP address (1 host up) scanned in 198.19 seconds
