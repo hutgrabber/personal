@@ -1,0 +1,1 @@
+# Nmap 7.93 scan initiated Tue May 30 12:35:31 2023 as: nmap -sC -p- -oN nmap/all_ports 10.10.81.156

