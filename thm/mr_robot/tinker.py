@@ -4,7 +4,7 @@ import re
 file_path = '/home/hutgrabber/Documents/personal/thm/mr_robot/'
 url = "http://10.10.219.115/"
 
-words = open(file_path + 'words.txt', 'r').readlines()
+words = open(file_path + 'new.txt', 'r').readlines()
 formatted = []
 for i in words:
     formatted.append(re.sub('\n', '', i))
