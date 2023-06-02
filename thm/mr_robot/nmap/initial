@@ -1,0 +1,18 @@
+# Nmap 7.93 scan initiated Thu Jun  1 21:31:57 2023 as: nmap -sC -sV -oN nmap/initial 10.10.219.115
+Nmap scan report for 10.10.219.115
+Host is up (0.12s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE  SERVICE  VERSION
+22/tcp  closed ssh
+80/tcp  open   http     Apache httpd
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache
+443/tcp open   ssl/http Apache httpd
+|_http-title: Site doesn't have a title (text/html).
+| ssl-cert: Subject: commonName=www.example.com
+| Not valid before: 2015-09-16T10:45:03
+|_Not valid after:  2025-09-13T10:45:03
+|_http-server-header: Apache
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun  1 21:32:44 2023 -- 1 IP address (1 host up) scanned in 47.24 seconds
