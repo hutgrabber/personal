@@ -1,0 +1,14 @@
+# Nmap 7.94 scan initiated Mon Nov 27 20:07:40 2023 as: nmap -Pn -sC -sV -oN scan 10.10.68.40
+Nmap scan report for 10.10.68.40
+Host is up (0.081s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE            VERSION
+80/tcp   open  http               Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+3389/tcp open  ssl/ms-wbt-server?
+| ssl-cert: Subject: commonName=hackpark
+| Not valid before: 2023-11-27T01:06:46
+|_Not valid after:  2024-05-28T01:06:46
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Nov 27 20:10:43 2023 -- 1 IP address (1 host up) scanned in 183.37 seconds
