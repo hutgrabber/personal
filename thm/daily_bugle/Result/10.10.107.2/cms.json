@@ -1,0 +1,14 @@
+{
+    "cms_id": "joom",
+    "cms_name": "joomla",
+    "cms_url": "https://joomla.org",
+    "detection_param": "header",
+    "directory_listing": "http://10.10.107.2/administrator/templates,http://10.10.107.2/administrator/modules,http://10.10.107.2/administrator/components,http://10.10.107.2/images/banners,",
+    "joomla_admin_url": "http://10.10.107.2/administrator,",
+    "joomla_debug_mode": "disabled",
+    "joomla_readme_file": "http://10.10.107.2/README.txt",
+    "joomla_version": "3.7.0",
+    "last_scanned": "2023-12-05 18:06:30.350796",
+    "url": "http://10.10.107.2/",
+    "vulnerabilities_count": "0"
+}
