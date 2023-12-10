@@ -1,0 +1,164 @@
+# Nmap 7.94 scan initiated Fri Dec  8 08:53:41 2023 as: nmap -p 139,445 -T4 --script smb-enum-* -oN smb_enum 192.168.192.0/24
+Nmap scan report for 192.168.192.6
+Host is up (0.042s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+
+Nmap scan report for 192.168.192.8
+Host is up (0.041s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+
+Nmap scan report for 192.168.192.9
+Host is up (0.041s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+445/tcp open  microsoft-ds
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Nmap scan report for 192.168.192.11
+Host is up (0.040s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+445/tcp open  microsoft-ds
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Nmap scan report for 192.168.192.12
+Host is up (0.040s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+445/tcp open  microsoft-ds
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Nmap scan report for 192.168.192.13
+Host is up (0.040s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+445/tcp open  microsoft-ds
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Nmap scan report for 192.168.192.14
+Host is up (0.040s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+445/tcp open  microsoft-ds
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Nmap scan report for 192.168.192.15
+Host is up (0.041s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+445/tcp open  microsoft-ds
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Nmap scan report for 192.168.192.20
+Host is up (0.040s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+445/tcp open  microsoft-ds
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Nmap scan report for 192.168.192.21
+Host is up (0.038s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+
+Nmap scan report for 192.168.192.22
+Host is up (0.038s latency).
+
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+
+Nmap scan report for 192.168.192.149
+Host is up (0.040s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+445/tcp open  microsoft-ds
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Nmap scan report for 192.168.192.151
+Host is up (0.042s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+445/tcp open  microsoft-ds
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Host script results:
+| smb-enum-shares: 
+|   note: ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)
+|   account_used: <blank>
+|   \\192.168.192.151\ADMIN$: 
+|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+|     Anonymous access: <none>
+|   \\192.168.192.151\C$: 
+|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+|     Anonymous access: <none>
+|   \\192.168.192.151\IPC$: 
+|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+|     Anonymous access: READ
+|   \\192.168.192.151\NETLOGON: 
+|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+|_    Anonymous access: <none>
+
+Nmap scan report for 192.168.192.152
+Host is up (0.042s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+445/tcp open  microsoft-ds
+|_smb-enum-services: ERROR: Script execution failed (use -d to debug)
+
+Host script results:
+| smb-enum-shares: 
+|   note: ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)
+|   account_used: <blank>
+|   \\192.168.192.152\ADMIN$: 
+|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+|     Anonymous access: <none>
+|   \\192.168.192.152\C$: 
+|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+|     Anonymous access: <none>
+|   \\192.168.192.152\IPC$: 
+|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+|     Anonymous access: READ
+|   \\192.168.192.152\PUBLIC: 
+|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+|     Anonymous access: <none>
+|   \\192.168.192.152\USERS: 
+|     warning: Couldn't get details for share: NT_STATUS_ACCESS_DENIED
+|_    Anonymous access: <none>
+
+Nmap scan report for 192.168.192.254
+Host is up (0.038s latency).
+
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+
+# Nmap done at Fri Dec  8 09:00:26 2023 -- 256 IP addresses (15 hosts up) scanned in 405.39 seconds

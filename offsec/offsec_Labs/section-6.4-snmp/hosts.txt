@@ -1,0 +1,26 @@
+# Nmap 7.94 scan initiated Fri Dec  8 12:15:42 2023 as: nmap -sU --open -T4 -p 161 -oN hosts.txt 192.168.192.0/24
+Nmap scan report for 192.168.192.17
+Host is up (0.025s latency).
+
+PORT    STATE         SERVICE
+161/udp open|filtered snmp
+
+Nmap scan report for 192.168.192.23
+Host is up (0.024s latency).
+
+PORT    STATE         SERVICE
+161/udp open|filtered snmp
+
+Nmap scan report for 192.168.192.151
+Host is up (0.024s latency).
+
+PORT    STATE SERVICE
+161/udp open  snmp
+
+Nmap scan report for 192.168.192.254
+Host is up (0.025s latency).
+
+PORT    STATE         SERVICE
+161/udp open|filtered snmp
+
+# Nmap done at Fri Dec  8 12:15:46 2023 -- 256 IP addresses (17 hosts up) scanned in 3.85 seconds

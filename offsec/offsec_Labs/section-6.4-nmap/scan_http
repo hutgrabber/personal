@@ -1,0 +1,113 @@
+# Nmap 7.94 scan initiated Thu Dec  7 13:55:43 2023 as: nmap --script=http-title.nse -T4 -p 80,443 -oN scan_http 192.168.192.0/24
+Nmap scan report for 192.168.192.6
+Host is up (0.039s latency).
+
+PORT    STATE  SERVICE
+80/tcp  open   http
+|_http-title: Under Construction
+443/tcp closed https
+
+Nmap scan report for 192.168.192.8
+Host is up (0.039s latency).
+
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp closed https
+
+Nmap scan report for 192.168.192.9
+Host is up (0.039s latency).
+
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp closed https
+
+Nmap scan report for 192.168.192.11
+Host is up (0.041s latency).
+
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp closed https
+
+Nmap scan report for 192.168.192.12
+Host is up (0.040s latency).
+
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp closed https
+
+Nmap scan report for 192.168.192.13
+Host is up (0.037s latency).
+
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp open   https
+|_http-title: Site doesn't have a title (text/html).
+
+Nmap scan report for 192.168.192.14
+Host is up (0.036s latency).
+
+PORT    STATE  SERVICE
+80/tcp  open   http
+|_http-title: IIS Windows Server
+443/tcp closed https
+
+Nmap scan report for 192.168.192.15
+Host is up (0.036s latency).
+
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp closed https
+
+Nmap scan report for 192.168.192.20
+Host is up (0.041s latency).
+
+PORT    STATE  SERVICE
+80/tcp  open   http
+| http-title: LOGIN |Messaging Web Application
+|_Requested resource was ./login.php
+443/tcp closed https
+
+Nmap scan report for 192.168.192.21
+Host is up (0.035s latency).
+
+PORT    STATE  SERVICE
+80/tcp  open   http
+|_http-title: Chicken monitoring site
+443/tcp closed https
+
+Nmap scan report for 192.168.192.22
+Host is up (0.036s latency).
+
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp closed https
+
+Nmap scan report for 192.168.192.149
+Host is up (0.036s latency).
+
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp closed https
+
+Nmap scan report for 192.168.192.151
+Host is up (0.036s latency).
+
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp closed https
+
+Nmap scan report for 192.168.192.152
+Host is up (0.045s latency).
+
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp closed https
+
+Nmap scan report for 192.168.192.254
+Host is up (0.040s latency).
+
+PORT    STATE  SERVICE
+80/tcp  closed http
+443/tcp closed https
+
+# Nmap done at Thu Dec  7 13:55:46 2023 -- 256 IP addresses (15 hosts up) scanned in 2.90 seconds

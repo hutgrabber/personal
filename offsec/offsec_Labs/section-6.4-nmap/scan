@@ -1,0 +1,159 @@
+# Nmap 7.94 scan initiated Thu Dec  7 12:31:53 2023 as: nmap -sS -T4 -oN scan 192.168.192.0/24
+Nmap scan report for 192.168.192.6
+Host is up (0.040s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 192.168.192.8
+Host is up (0.039s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+
+Nmap scan report for 192.168.192.9
+Host is up (0.038s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap scan report for 192.168.192.11
+Host is up (0.039s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap scan report for 192.168.192.12
+Host is up (0.038s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap scan report for 192.168.192.13
+Host is up (0.040s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+9999/tcp open  abyss
+
+Nmap scan report for 192.168.192.14
+Host is up (0.040s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE
+21/tcp  open  ftp
+80/tcp  open  http
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap scan report for 192.168.192.15
+Host is up (0.039s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+8080/tcp open  http-proxy
+
+Nmap scan report for 192.168.192.17
+Host is up (0.036s latency).
+All 1000 scanned ports on 192.168.192.17 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 192.168.192.20
+Host is up (0.040s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap scan report for 192.168.192.21
+Host is up (0.039s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 192.168.192.22
+Host is up (0.038s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3306/tcp open  mysql
+
+Nmap scan report for 192.168.192.23
+Host is up (0.037s latency).
+All 1000 scanned ports on 192.168.192.23 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 192.168.192.149
+Host is up (0.040s latency).
+Not shown: 989 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+
+Nmap scan report for 192.168.192.151
+Host is up (0.039s latency).
+Not shown: 989 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+
+Nmap scan report for 192.168.192.152
+Host is up (0.038s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 192.168.192.251
+Host is up (0.039s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+43/tcp open  whois
+
+Nmap scan report for 192.168.192.254
+Host is up (0.037s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+
+# Nmap done at Thu Dec  7 12:32:05 2023 -- 256 IP addresses (18 hosts up) scanned in 12.16 seconds
