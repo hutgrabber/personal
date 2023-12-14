@@ -1,1 +1,0 @@
-find . -name 'INCOMPLETE' -type f 2>/dev/null
