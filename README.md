@@ -1,6 +1,3 @@
 ## Hutgrabber's Personal Repo
 
-1. The Exploit Directory
-
-`./exploits`
-This directory stores 
+This repo has all the files that are needed in order to get started with work. It has usefull stuff.
